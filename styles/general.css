@@ -12,21 +12,10 @@ body {
   background-color: rgb(248, 248, 248);
 }
 
-<<<<<<< HEAD
 @media (min-width: 992px) {
   #intro {
     margin-top: -58.59px;
   }
-=======
-#bg {
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
->>>>>>> origin
 }
 
 #over-img {
@@ -56,12 +45,6 @@ body {
   right: 0; 
   bottom: 0; 
   margin: auto; 
-<<<<<<< HEAD
   min-width: 100%;
   min-height: 100%;
 }
-=======
-  min-width: 50%;
-  min-height: 50%;
-}
->>>>>>> origin
