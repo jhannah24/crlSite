@@ -18,7 +18,7 @@ html,body
 }
 
 #tw2 {
-  float: center; width: 45px; 
+  float: center; width: 45px;
   visibility: hidden;
 }
 
@@ -41,7 +41,7 @@ html,body
 }
 
 #ctext2 {
-  color: black; float: center; margin-left: 0%; font-size: 30px; 
+  float: center; font-size: 30px; 
   visibility: hidden;
 }
 
@@ -50,7 +50,7 @@ html,body
 }
 
 #ptext2 {
-  color: black; float: center; font-size: 30px;
+  float: center; font-size: 30px;
   visibility: hidden;
 }
 
@@ -69,6 +69,8 @@ html,body
   background-size: cover;
   position: relative
 }
+
+
 
 @media (max-width: 1080px) {
 
@@ -100,6 +102,7 @@ html,body
   }
 
   #ctext2{
+    margin-left: 100px;
     visibility: visible;
   }
 
@@ -139,6 +142,7 @@ html,body
 
   #ctext2{
     font-size: 22px;
+    margin-left:0px;
     visibility: visible;
   }
 
@@ -152,11 +156,12 @@ html,body
   }
 
   #tw {
-    visibility: hidden
+    visibility: hidden;
   }
 
   #tw2 {
-    width: 27px;
+    width: 45px;
+    padding-top:15px;
     visibility: visible;
   }
   #ig {
@@ -164,7 +169,8 @@ html,body
   }
 
   #ig2 {
-    width: 30px;
+    width: 50px;
+    padding-top:15px;
     visibility: visible;
   }
 }
