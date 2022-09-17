@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <body>
     
-    <div class="bg-image"
+    <!--clean up --><div class="bg-image"
       style="
         background-image: url('images/homepagebg.jpg');
         height: 100vh;
@@ -18,20 +18,35 @@
         background-size: cover;
         position: relative;
         background-attachment:fixed">
-        <div class="container-fluid d-flex align-items-top justify-content-center text-center h-100" style="padding-top: 85px; font-family: Segoe IU;">
+        <div class="container-fluid d-flex align-items-top justify-content-center text-center h-100" style="padding-top: 45px; font-family: Segoe IU;">
           <div class="col-sm" style="padding-left: 2%; padding-top: 210px;">
-            <h1 style="float: left; padding-left: 5%; font-size: 30px;">Purchase</h1>
-            <h1 style="float: left; padding-left: 15%; font-size: 30px;">Contact</h1>
+            <a href=purchase.html><h1 id="ptext">Purchase</h1></a>
+            <a href=contact.html><h1 id="ctext">Contact</h1></a>
+            <a href=contact.html><h1 id="ctext1">Contact</h1></a>
           </div>
           <div class="col-sm">
             <img id="over-img" class="mb-3" src="images/hpimg.png"></img>
+            <a href=purchase.html><h1 id="ptext2">Purchase</h1></a>
+            <a href=contact.html><h1 id="ctext2">Contact</h1></a>
+            <img id="tw2" src="icons/twitter.png" alt="Twitter" usemap="#twitter"></img>
+            <img id="ig2" src="icons/instagram.png" alt="Instagram" usemap="#instagram"></img>
           </div>
           <div class="col-sm" style="padding-right: 2%; padding-top: 205px">
-            <img src="icons/twitter.png" style="float: right; width: 45px; padding-top: 2px"></img>
-            <img src="icons/instagram.png" style="float: right; margin-right: 100px; width: 50px;"></img>
+              <img id="tw" src="icons/twitter.png" alt="Twitter" usemap="#twitter"></img>
+              <img id="ig" src="icons/instagram.png" alt="Instagram" usemap="#instagram"></img>
+              <h1 id="ptext" style="visibility: hidden">Purchase</h1>
+
           </div>
       </div>
     </div>
+
+    <map name="twitter">
+      <area target="_blank" alt="Twitter" title="Twitter" href="https://twitter.com/SkinnyYoungThug" coords="1,38,10,42,24,40,36,32,41,21,45,9,38,5,26,3,21,15,12,12,4,5,2,12,3,19,6,28,7,32" shape="poly">
+    </map>
+
+    <map name="instagram">
+      <area target="_blank" alt="Instagram" title="Instagram" href="https://www.instagram.com/skinnyyoungthug/?hl=en" coords="2,10,2,37,11,47,38,47,48,36,48,12,38,2,12,2" shape="poly">
+    </map>
   </body>
 </html>
 
