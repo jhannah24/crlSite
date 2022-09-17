@@ -129,8 +129,8 @@ html,body
 
 @media (max-width: 525px) {
   #over-img {
-    width: 200px;
-    height: 184px;
+    width: 250px;
+    height: 230px;
   }
 
   #ctext{
@@ -138,7 +138,7 @@ html,body
   }
 
   #ctext2{
-    font-size: 18px;
+    font-size: 22px;
     visibility: visible;
   }
 
@@ -147,7 +147,7 @@ html,body
   }
 
   #ptext2 {
-    font-size: 18px;
+    font-size: 22px;
     visibility: visible;
   }
 
@@ -156,7 +156,7 @@ html,body
   }
 
   #tw2 {
-    width: 18px;
+    width: 27px;
     visibility: visible;
   }
   #ig {
@@ -164,7 +164,7 @@ html,body
   }
 
   #ig2 {
-    width: 20px;
+    width: 30px;
     visibility: visible;
   }
 }
