@@ -82,7 +82,7 @@
 @media (max-width: 925px) {
   #over-img {
     width: 350px;
-    height: 330px;
+    height: 322px;
   }
 
   #ctext{
@@ -115,4 +115,42 @@
   #ig2 {
     visibility: visible;
   }
+}
+
+@media (max-width: 525px) {
+  #over-img {
+    width: 250px;
+    height: 230px;
+
+  #ctext{
+   visibility: hidden;
+  }
+
+  #ctext2{
+    visibility: visible;
+  }
+
+  #ptext {
+    visibility: hidden;
+  }
+
+  #ptext2 {
+    visibility: visible;
+  }
+
+  #tw {
+    visibility: hidden
+  }
+
+  #tw2 {
+    visibility: visible;
+  }
+  #ig {
+    visibility: hidden;
+  }
+
+  #ig2 {
+    visibility: visible;
+  }
+}
 }
