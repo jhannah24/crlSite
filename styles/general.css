@@ -18,7 +18,7 @@ html,body
 }
 
 #tw2 {
-  float: center; width: 45px; padding-top: 0px; margin-left: 14px; padding-right: 0px;
+  float: center; width: 45px; 
   visibility: hidden;
 }
 
@@ -112,7 +112,7 @@ html,body
   }
 
   #tw {
-    visibility: hidden
+    visibility: hidden;
   }
 
   #tw2 {
@@ -129,14 +129,16 @@ html,body
 
 @media (max-width: 525px) {
   #over-img {
-    width: 250px;
-    height: 230px;
+    width: 200px;
+    height: 184px;
+  }
 
   #ctext{
    visibility: hidden;
   }
 
   #ctext2{
+    font-size: 18px;
     visibility: visible;
   }
 
@@ -145,6 +147,7 @@ html,body
   }
 
   #ptext2 {
+    font-size: 18px;
     visibility: visible;
   }
 
@@ -153,6 +156,7 @@ html,body
   }
 
   #tw2 {
+    width: 18px;
     visibility: visible;
   }
   #ig {
@@ -160,7 +164,7 @@ html,body
   }
 
   #ig2 {
+    width: 20px;
     visibility: visible;
   }
-}
 }
