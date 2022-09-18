@@ -70,7 +70,13 @@ html,body
   position: relative
 }
 
-
+.button {     
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 1px solid black;
+  cursor:pointer;
+  overflow: hidden;        
+}
 
 @media (max-width: 1080px) {
 
@@ -170,7 +176,8 @@ html,body
 
   #ig2 {
     width: 50px;
-    padding-top:15px;
+    padding-top: 15px;
+    margin-left: 15px;
     visibility: visible;
   }
 }
