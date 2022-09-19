@@ -5,7 +5,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    overflow-x: hidden;
+    overflow-y: hidden;
     vertical-align: baseline;
     background: transparent;
     scroll-behavior: smooth;
@@ -90,10 +90,24 @@ html,body
   }
 }
 
+[aria-current="page"] {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
+
 @media (max-height: 625px) and (max-width: 925px), (max-height: 200px) and (max-width: 525px) {
   #over-img {
     width: 250px;
     height: 230px;
+  }
+
+  [aria-current="page"] {
+    pointer-events:all;
+    cursor: default;
+    text-decoration: none;
+    color: black;
   }
 
   #tw2 {
@@ -158,12 +172,20 @@ html,body
     visibility: hidden;
   }
 
+  
 }
 
 @media (max-width: 925px) {
   #over-img {
     width: 250px;
     height: 230px;
+  }
+
+  [aria-current="page"] {
+    pointer-events: all;
+    cursor: default;
+    text-decoration: none;
+    color: black;
   }
 
   #ctext{

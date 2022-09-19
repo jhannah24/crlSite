@@ -8,13 +8,12 @@ html,body
     overflow-y: hidden;
     vertical-align: baseline;
     background: transparent;
-    scroll-behavior: smooth;
-    scroll-snap-type: y;
+    scroll-behavior:auto;
     background-color: black;
 }
 
 .bg-image {
-  background-image: url('images/contactbg2.jpg');
+  background-image: url('images/contactbg2.jpg'), url('images/black.gif');
   height: 100vh;
   width: 100vw;
   background-position: 50% 50%;
