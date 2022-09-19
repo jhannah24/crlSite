@@ -6,6 +6,8 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
     overflow-y: hidden;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 #over-img {
