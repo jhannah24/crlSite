@@ -10,7 +10,7 @@ html,body
     background: transparent;
     scroll-behavior: smooth;
     scroll-snap-type: y;
-    background-color: lightblue;
+    background-color: black;
 }
 
 #over-img {
