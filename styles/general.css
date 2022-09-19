@@ -8,6 +8,9 @@ html,body
     overflow-y: hidden;
     vertical-align: baseline;
     background: transparent;
+    scroll-behavior: smooth;
+    scroll-snap-type: y;
+    background-color: lightblue;
 }
 
 #over-img {
@@ -79,6 +82,13 @@ html,body
   cursor:pointer;
   overflow: hidden;        
 }
+
+header {
+  float: left;
+  margin: -1% 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+} 
 
 @media (max-width: 1080px) {
 
