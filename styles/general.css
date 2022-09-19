@@ -8,6 +8,8 @@ html,body
     overflow-y: hidden;
     vertical-align: baseline;
     background: transparent;
+    scroll-behavior: smooth;
+    scroll-snap-type: y;
 }
 
 #over-img {
