@@ -59,8 +59,8 @@ html,body
   visibility: hidden;
 }
 
-.button {     
-  background-color: Transparent;
+.btn {     
+  background-color: black;
   background-repeat:no-repeat;
   border: 1px solid black;
   cursor:pointer;
@@ -88,8 +88,8 @@ html,body
 
 @media (max-width: 925px) {
   #over-img {
-    width: 350px;
-    height: 322px;
+    width: 250px;
+    height: 230px;
   }
 
   #ctext{
@@ -125,7 +125,7 @@ html,body
   }
 }
 
-@media (max-width: 525px) {
+@media (max-width: 925px) {
   #over-img {
     width: 250px;
     height: 230px;
@@ -168,9 +168,5 @@ html,body
     margin-top: 15px;
     margin-left: 15px;
     visibility: visible;
-  }
-
-  #cntr {
-    
   }
 }
