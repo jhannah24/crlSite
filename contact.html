@@ -7,26 +7,110 @@
 
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
   </head>
   <body>
     <div class="bg-image" style="
-    background-image: url('images/contactbg2.png');
-    height: 100vh;
+    background-image: url('images/contactbg1.jpg');
     width: 100vw;
-    background-position: 50% 50%;
+    background-position: 50% 20%;
     background-size: cover;
     position: relative;
-    background-attachment: fixed">
+    background-attachment:fixed">
 
         <div class="container-fluid d-flex align-items-top justify-content-center text-center h-100" style="padding-top: 35px; font-family: Garamond;">
+          <div class="row">
           <div class="col-sm" id="left">
-            <a href=index.html><h1 id="htext">Back</h1></a>
+            <a href="index.html" id="htext">Home</a>
           </div>
-          <div class="col-sm">
-            <img id="over-img" class="mb-3" src="images/cimg1.jpg"></img>
+          <div class="col-md-10">
+            <img id="over-img" class="mb-3" src="images/pimg3.png"></img>
+            <!--Section: Contact v.2-->
+<section class="mb-5" id="rcorners" style="width: 650px;">
+
+  <!--Section heading-->
+  <h2 class="h1-responsive text-center my-4">Contact Mr. Lucy</h2>
+
+      <!--Grid column-->
+      <div class="col-md-12 mb-md-12 mb-2">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-4">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" placeholder="Name" class="form-control">
+                      </div>
+                  </div>
+                  <!--Grid column-->
+                  <div class="col-md-4">
+                    <div class="form-group md-form mb-0">
+                      <select class="form-control" id="inquiry">
+                        <option value="" style="display:none;">Select inquiry</option>
+                        <option value="work">Work related</option>
+                        <option value="consult">Consultation</option>
+                      </select>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+                  <div class="col-md-4">
+                      <div class="md-form mb-0">
+                          <input type="email" id="email" name="Email" placeholder="Email" class="form-control">
+                          <p style="visibility:hidden"class="">.</p>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" placeholder="Subject" class="form-control">
+                          <p style="visibility:hidden"class="">.</p>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="4" placeholder="Message" class="form-control md-textarea"></textarea>
+                          <p style="visibility:hidden"class="">.</p>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btnLight col-sm-2" style="border-color: rgba(0,0,0,0.25)" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+</section>
+<!--Section: Contact v.2-->
           </div>
           <div class="col-sm" id="right" style="padding-right: 2%">
+              <h1 id="htext" style="visibility: hidden">Back</h1>
           </div>
+        </div>
+      <div class=>
+
+      </row>
       </div>
     </div>
   </body>

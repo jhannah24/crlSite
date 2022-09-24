@@ -5,38 +5,72 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    overflow-y: hidden;
     vertical-align: baseline;
     background: transparent;
     scroll-behavior:auto;
     background-color: black;
 }
 
-.bg-image {
-  background-image: url('images/contactbg2.jpg'), url('images/black.gif');
-  height: 100vh;
-  width: 100vw;
-  background-position: 50% 50%;
-  background-size: cover;
-  position: relative;
-  background-attachment: fixed;
+#over-img {
+  width: 450px;
+  height: 414px;  
 }
 
-#over-img {
-  width: 500px;
-  height: 460px;  
+#htext:hover {
+  text-decoration: none;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 
 #htext {
-  
-  color: black; float: left; font-size: 30px;
+  color: black; float: left; font-size: 30px; 
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  position: fixed;
+  left:3%;
   
 }
 
 #left {
-  padding-left: 2%; padding-top: 210px;
+  padding-left: 2%; padding-top: 205px;
 }
 
 #right {
   padding-right: 2%; padding-top: 205px
+}
+
+#rcorners {
+  background: rgba(256,256,256,1);
+  padding: 20px;
+  margin-left:-75px;
+  margin-top:50px;
+}
+
+.formB {
+  border-color: rgba(0,0,0,0.5); background-color:white; }
+
+.btnLight {
+    padding: 14px 24px;
+    border: 10px solid;
+    letter-spacing: 1px;
+    color:white;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btnLight:hover, .btnLight:focus, .btnLight:active, .btnLight.active, .open > .dropdown-toggle.btnLight {
+  background: rgba(0,0,0,0.05);
+  color:white;
+}
+
+.btnLight:active, .btn-primary.active {
+  background: rgba(0,0,0,0.05);
+  box-shadow: none;
+  color:white;
 }

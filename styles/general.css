@@ -5,7 +5,6 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    overflow-y: hidden;
     vertical-align: baseline;
     background: transparent;
     scroll-behavior: smooth;
@@ -14,13 +13,17 @@ html,body
     padding: env(safe-area-inset);
 }
 
+.bg-image {
+  height: 100vh;
+}
+
 #over-img {
-  width: 500px;
-  height: 460px;  
+  width: 450px;
+  height: 414px;  
 }
 
 #tw {
-  float: right; width: 45px; padding-top: 5px; 
+  float: right; width: 45px; padding-top: 5px; /* modify twitter map */
 }
 
 #tw2 {
@@ -226,4 +229,93 @@ html,body
     margin-left: 15px;
     visibility: visible;
   }
+}
+
+@media (max-height: 325px) and (max-width: 925px), (max-height: 200px) and (max-width: 525px) {
+  .bg-image {
+    height: auto;
+  }
+  
+  #over-img {
+    width: 250px;
+    height: 230px;
+  }
+
+  [aria-current="page"] {
+    pointer-events:all;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+  }
+
+  #tw2 {
+    width: 45px;
+    margin-top:15px;
+    visibility: visible;
+    filter: invert(100%);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  }
+
+  #ig2 {
+    width: 50px;
+    margin-top:15px;
+    margin-left:15px;
+    visibility: visible;
+    filter: invert(100%);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  }
+
+  #ctext{
+   visibility: hidden;
+  }
+
+  #ctext2{
+    border-color: rgba(256,256,256,0);
+    font-size: 18px;
+    margin-left:0px;
+    visibility: visible;
+    background-color: rgba(256,256,256,0.35);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  }
+
+  #ptext {
+    visibility: hidden;
+  }
+
+  #ptext2 {
+    border-color: rgba(256,256,256,0);
+    font-size: 18px;
+    visibility: visible;
+    background-color: rgba(256,256,256,0.35);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  }
+
+  #tw {
+    visibility: hidden;
+  }
+  
+  #ig {
+    visibility: hidden;
+  }
+
+  
+}
+
+@media (max-height: 600px) {
+  .bg-image {
+    height:auto;
+  }
+
 }
