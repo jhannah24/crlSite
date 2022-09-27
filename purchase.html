@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
     <meta name="theme-color" content="#000000">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="styles/purchase.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
@@ -27,14 +28,30 @@
 
           <div class="col-sm" style="margin-bottom: 30px;">
             <img id="over-img" class="mb-3" src="images/cimg.png"></img>
-            <section class="mb-5" id="items" style="width: 1000px;">
+            <section class="mb-5" id="items" style="width: 1350px;">
               <img src="images/whitesq.jpeg" style="width:400px">
               <img src="images/whitesq.jpeg" style="width:400px; margin-left: 50px">
-              <img src="images/whitesq.jpeg" style="width:400px; margin-top: 50px;">
+              <img src="images/whitesq.jpeg" style="width:400px; margin-left: 50px;">
             </section>
           </div>
           <div class="col-sm" id="right">
               <h1 id="" style="visibility: hidden">Home</h1>
+              <div class="cart-modal-overlay">
+                <div class="cart-modal">
+                  <i id="close-btn" class="fas fa-times"></i>
+                    <h1 class="cart-is-empty">Cart is empty</h1>
+                  
+             
+                    <!--<div class="total">
+                      <h1 class="cart-total">TOTAL</h1>
+                        <span class="total-price">$0</span>
+                          <button class="purchase-btn">PURCHASE</button>
+                    </div>-->
+                  </div>
+            </div>
+            <div class="cart-btn right">
+              <i id="cart" class="fas fa-shopping-cart"></i>
+            </div>
           </div>
       </div>
     </div>
@@ -47,6 +64,7 @@
     <map name="instagram">
       <area target="_blank" alt="Instagram" title="Instagram" href="https://www.instagram.com/skinnyyoungthug/?hl=en" coords="2,10,2,37,11,47,38,47,48,36,48,12,38,2,12,2" shape="poly">
     </map>
+    <script  src="./js/script.js"></script>
   </body>
 </html>
 

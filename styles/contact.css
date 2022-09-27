@@ -11,6 +11,10 @@ html,body
     background-color: black;
 }
 
+.bg-image {
+  height: 100vh;
+}
+
 #over-img {
   width: 450px;
   height: 414px;  
@@ -44,33 +48,61 @@ html,body
 }
 
 #rcorners {
-  background: rgba(256,256,256,1);
-  padding: 20px;
+  background: rgba(256,256,256,0);
+  padding: 0px;
   margin-left:-75px;
-  margin-top:50px;
+  margin-top:0px;
 }
 
 .formB {
   border-color: rgba(0,0,0,0.5); background-color:white; }
 
-.btnLight {
-    padding: 14px 24px;
-    border: 10px solid;
-    letter-spacing: 1px;
-    color:white;
+.btn-outline {
+  border:none  !important; background-color: rgba(256,256,256,0.35) !important;
 }
 
-.btn:focus, .btn:active:focus, .btn.active:focus {
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+  background: rgba(256,256,256,0.7) !important;
+}
+
+.btn.active:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
 }
 
-.btnLight:hover, .btnLight:focus, .btnLight:active, .btnLight.active, .open > .dropdown-toggle.btnLight {
-  background: rgba(0,0,0,0.05);
-  color:white;
+.btnLight:hover {
+  background: rgba(70,0,0,0.95);
 }
 
 .btnLight:active, .btn-primary.active {
-  background: rgba(0,0,0,0.05);
+  background: rgba(0,0,0,0.95);
   box-shadow: none;
-  color:white;
+}
+
+#subject::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(0,0,0,0.6);
+  opacity: 1; /* Firefox */
+}
+
+#name::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(0,0,0,0.6);
+  opacity: 1; /* Firefox */
+}
+
+#email::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(0,0,0,0.6);
+  opacity: 1; /* Firefox */
+}
+
+#message::placeholder {
+  color: rgba(0,0,0,0.6);
+  opacity: 1;
+}
+
+#inquiry {
+  background-color:rgba(256,256,256,0.35);
+  border-color:rgba(256,256,256,0.35);
+  color: rgba(0,0,0,0.6);
 }
